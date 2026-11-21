@@ -1,0 +1,8 @@
+{:itonami.blueprint/id "yadoya"
+ :itonami.blueprint/name "yadoya — hotel search and reservation"
+ :itonami.blueprint/license "ISC"   ; as declared in package.json
+ ;; One classification key (itonami-lib blueprint.edn schema), chosen from
+ ;; README.md for the registry catalog (JUN-1439): isic-rev5 5540, checked against
+ ;; the ISIC Rev.5 structure table in cloud-itonami/app-itonami-org-un-isic.
+ :itonami.blueprint/isic-rev5 "5540"
+ :itonami.blueprint/domain :hospitality/hotel-booking}
